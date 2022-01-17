@@ -20,7 +20,7 @@ public class Java8DateTimeApiDemo {
         System.out.println("\tDay of Week Name = " + localDate.getDayOfWeek().name());
         System.out.println("\tThe Date 23 days ago was = " + localDate.minusDays(23));
         System.out.println(String.format("\tlocalDate is now = %s", localDate.format(DateTimeFormatter.ISO_LOCAL_DATE)));
-        System.out.println("\tThe Date 23 days ago was = " + localDate.plusMonths(6));
+        System.out.println("\tThe Date 6 months from now will be = " + localDate.plusMonths(6));
         System.out.println(String.format("\tlocalDate is now = %s", localDate.format(DateTimeFormatter.BASIC_ISO_DATE)));
         System.out.println(String.format("\tlocalDate is now = %s", localDate.format(DateTimeFormatter.ISO_ORDINAL_DATE)));
         System.out.println(String.format("\tlocalDate is now = %s", localDate.format(DateTimeFormatter.ISO_WEEK_DATE)));
